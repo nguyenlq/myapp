@@ -15,6 +15,7 @@ AS
 GO
 --Test
 SELECT * FROM dbo.Danh_sach_nhan_vien(90)
+SELECT * FROM dbo.Danh_sach_nhan_vien(80)
 SELECT * FROM dbo.Danh_sach_nhan_vien(0)
 SELECT * FROM dbo.Danh_sach_nhan_vien(NULL)
 GO
